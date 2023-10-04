@@ -1,0 +1,224 @@
+*{
+	margin:0;
+/*	box-sizing:border-box;
+*/	padding:0;
+	background-color: black;
+}
+
+#logo{
+	display:flex;
+	align-items:center;
+	color:white;
+	margin:0 14px;
+}
+
+#logo img {
+  height: 50px;
+}
+
+#navbar {
+  background-color: black;
+  padding: 18px 4px;
+  border: 2px solid gold;
+  display: flex;
+}
+
+#navbar ul{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	background-color: black;
+}
+
+#navbar li{
+	list-style:none;
+}
+
+#navbar li a{
+	text-decoration:none;
+	font-weight:bold;
+	padding:7px 11px;
+	color:white;
+	background-color: black;
+}
+
+#navbar li a:hover{
+	text-decoration:underline;
+}
+
+#introsec{
+	font-size:55px;
+	flex-direction:column;
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:center / cover no-repeat url("/static/bg.jpg");
+	height:425px;
+	background-color:red;
+}
+
+.big {
+  text-align: center;
+  border: 2px solid;
+  border-radius: 30px;
+  background-color: #04001e;
+  padding: 3px 13px;
+}
+
+.small{
+  font-size: 27px;
+  width: 31%;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 30px;
+  margin-top: 3px;
+  background-color: #04001e;
+}
+
+.introHeading{
+	background-color: black;
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 28%;
+border-radius: 14px;
+border: 2px solid black;
+}
+
+
+#missionsec {
+  display: block;
+  margin: auto;
+  width: 94%;
+  height: 120vh;
+}
+
+#missionsec h1{
+	text-align:center;
+	padding:10px;
+	color: white;
+}
+
+.card {
+  display: inline-block;
+  border: 2px solid black;
+  margin: auto 1%;
+  height: 300px;
+  width: 30%;
+  background-color: black;
+}
+
+.card:hover {
+cursor:pointer;
+opacity: 65%;
+}
+
+.card img {
+height: 100%;
+width: 100%;
+opacity: 75%;
+border: 2px solid whitesmoke;
+border-radius: 50px;
+}
+
+.card-content {
+
+/*
+position: absolute;
+top: 685px;
+*/
+position: relative;
+bottom: 200px;
+font-size: 16px;
+background-color: #3e3e3e;
+color: white;
+height: 40px;
+border-radius: 17px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 8px;
+margin: auto;
+width: 57%;
+text-align:center;
+opacity: 79%;
+font-weight: bold;
+}
+
+
+#introsec div.small{
+	font-size:27px;
+	
+}
+
+#Sponsorsec{
+	background-color:yellow;
+	display: block;
+	margin: auto;
+	height: 300px;
+	padding-right: 190px;
+	padding-left: 205px;
+}
+#Sponsorsec h3{
+	text-align:center;
+	padding:10px;
+}
+#sponrs{
+	height:12px;
+	max-width:100%;
+	margin:auto;
+}
+.spimg{
+	height: 1205%;
+margin: 38px 23px;
+}
+
+#footer{
+	display:flex;
+	background-color:black;
+	height:60px;
+	color:white;
+	align-items:center;
+	justify-content:center;
+	
+}
+
+.heading{
+	color:white;
+	margin: 25px auto;
+}
+
+.container{
+	color: white;
+margin: 75px auto;
+width: 75%;
+}
+
+.bold{
+	font-size: 2.1rem;
+	margin-bottom: 3.5rem;
+}
+
+.normal_div{
+margin: 25px 0;
+font-size: 1.5rem;
+}
+
+.muscle_ul{
+	margin: 3rem auto;
+font-size: 1.2rem;
+}
+
+/*
+
+		section#Sponsorsec
+			h3 aur Sponsors
+			div#sponrs
+					img(src="/static/sp(1).jpg", alt="sponsor img", class="spimg")
+					img(src="/static/sp(2).jpg", alt="sponsor img", class="spimg")
+					img(src="/static/sp(3).jpg", alt="sponsor img", class="spimg")
+					img(src="/static/sp(4).png", alt="sponsor img", class="spimg")
+					
+
+*/

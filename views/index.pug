@@ -1,0 +1,58 @@
+doctype html
+html
+	head
+		title
+		style
+			include ../static/style.css
+	body
+		nav#navbar
+			ul
+				div#logo
+					img(src="/static/BIRDY2-4.png")
+					|MDS
+				li #[a(href="/") Home] 
+				li #[a(href="/") About]
+				li #[a(href="/") Services]
+				li #[a(href="/") Contacts]
+				li #[a(href="/") Class info]   
+		section#introsec
+			div  WELCOME
+			div.small  TO MY WEBSITE
+			
+		section#missionsec
+			h3 Our mission
+			div.card  
+				p This is my card
+				div.card-box
+					div.card-img
+						img(src="/static/back.png")
+					div.card-content
+						this is a good dance academy
+			div.card  
+				p This is my card
+				div.card-box
+					div.card-img
+						img(src="/static/back.png")
+					div.card-content
+						this is a good dance academy
+			div.card  
+				p This is my card
+				div.card-box
+					div.card-img
+						img(src="/static/back.png")
+					div.card-content
+						this is a good dance academy
+			
+		section#Sponsorsec
+			h3 aur Sponsors
+			div#sponrs
+				img(src="/static/sp(1).jpg", alt="sponsor img", class="spimg")
+				img(src="/static/sp(2).jpg", alt="sponsor img", class="spimg")
+				img(src="/static/sp(3).jpg", alt="sponsor img", class="spimg")
+				img(src="/static/sp(4).png", alt="sponsor img", class="spimg")
+		footer#footer
+			| Copyright 2022 @MyDanceSchool.com | All rights and reserved.
+			
+		p welcome to my superior site
+		script
+	include ../static/index.js

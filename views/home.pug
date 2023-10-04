@@ -1,0 +1,25 @@
+extends base.pug
+
+	
+block style	
+		style
+			include ../static/style.css
+			include ../static/responsive.css
+block content
+		section#introsec
+			div.big  WELCOME
+			div.small  TO MY FITTNESS WEBSITE
+			
+		section#missionsec
+			h1 Choose a Goal  
+			a(href="/weight_Loss" class="card")
+				img(src="/static/wateloss img.jpg")
+				div.card-content WEIGHT LOSS
+				
+			a(href="/weight_Gain" class="card")
+				img(src="/static/mucle img.jpg")
+				div.card-content GAIN MUSCLE
+				
+			a(href="/stamina" class="card")
+				img(src="/static/run img.jpg")
+				div.card-content STAMINA
