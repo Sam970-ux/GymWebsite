@@ -83,6 +83,14 @@
 .normal_div {
   font-size: 1.2rem;
 }
+
+/* contact page */
+.myInput {
+  font-size: 14px;
+  width: 80%;
+  height: 15px;
+}
+
 }
 
 
@@ -150,5 +158,17 @@ font-size: 17px;
 .normal_div {
   font-size: 1rem;
 }	
+
+/* contact page */
+.h {
+  font-size: 24px;
+}
+
+.myInput {
+  font-size: 12px;
+  width: 85%;
+  height: 13px;
+  margin: 5px;
+}
 
 }

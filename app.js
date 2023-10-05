@@ -4,19 +4,19 @@ const fs = require("fs");
 const app = express();
 
 //  const DB = process.env.DATABASE;
-const PORT = 80;
+// const PORT = 80;
 
 // import mongoose and defining
 var mongoose = require('mongoose');
 const bodyparser = require("body-parser");
 
 //
-mongoose.connect('mongodb://localhost/contactdance', {useNewUrlParser: true, useUnifiedTopology: true});
+// mongoose.connect('mongodb://localhost/contactdance', {useNewUrlParser: true, useUnifiedTopology: true});
 //
 
-//  const dotenv = require("dotenv");
+  const dotenv = require("dotenv");
 
-/*  dotenv.config({ path: './config.env' });
+ dotenv.config({ path: './config.env' });
 
 const DB = process.env.DATABASE;
 const PORT = process.env.port;
@@ -26,7 +26,7 @@ const PORT = process.env.port;
 mongoose.connect(DB, {
 	 useNewUrlParser: true
 	 });
-*/
+// */
 
 let db = mongoose.connection;
 
